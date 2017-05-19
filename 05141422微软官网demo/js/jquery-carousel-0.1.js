@@ -59,7 +59,7 @@
                 alk +
                 '</div>';
             $wrap.append(addCon);
-            $tipsBtn = $('.tips').children('.tips-btn');
+            $tipsBtn = $wrap.find('.tips').children('.tips-btn');
             $tipsBtn.eq(0).addClass('clicked').siblings().removeClass('clicked');
 
         }
@@ -82,8 +82,8 @@
                 '</a>' +
                 '</div>';
             $wrap.append(addCon);
-            $btn = $('.controls-block').children('.btn');
-            $pauseBlock = $('.pause-block');
+            $btn = $wrap.find('.controls-block').children('.btn');
+            $pauseBlock = $wrap.find('.pause-block');
             addEvents();
         }
 
