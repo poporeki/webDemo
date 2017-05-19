@@ -282,6 +282,9 @@ section .c-list-wrap ul.c-list li.list-item > a > span {
 section .c-list-wrap ul.c-list li.list-item > a:hover > span {
   text-decoration: underline;
 }
+section .c-list-wrap ul.c-list li.list-item > a:hover > img {
+  opacity: .8;
+}
 section .c-list-wrap ul.c-list li.list-item .item-text {
   padding-top: 20px;
   padding-bottom: 20px;
